@@ -44,17 +44,32 @@ Cada nível traz novos desafios, aplicando conceitos de *structs, vetores, orden
 
 ## ⚙ Como compilar e executar
 
-No terminal (Linux/Mac) ou CMD (Windows), use:
+No **Windows (CMD/PowerShell)**, utilize os comandos abaixo:
 
 ```bash
 # Compilar
-gcc MOD1desafio.c -o mod1
-gcc MOD2desafio.c -o mod2
-gcc MOD3desafio.c -o mod3
+gcc MOD1desafio.c -o MOD1desafio.exe
+gcc MOD2desafio.c -o MOD2desafio.exe
+gcc MOD3desafio.c -o MOD3desafio.exe
 
 # Executar
-./mod1
-./mod2
-./mod3
+MOD1desafio.exe
+MOD2desafio.exe
+MOD3desafio.exe
+
+
+---
+
+📂 Estrutura do Repositório
+
+📦 projeto-freefire
+ ┣ 📜 MOD1desafio.c
+ ┣ 📜 MOD2desafio.c
+ ┣ 📜 MOD3desafio.c
+ ┗ 📜 README.md
+
+
+---
+
 ✍ Autor: Illan Weslley Silva Lobato
 📚 Estácio - Estrutura de Dados
